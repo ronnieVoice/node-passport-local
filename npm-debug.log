@@ -1,0 +1,127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'mongo', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'mongo', null ]
+5 verbose cache add name=undefined spec="mongo" args=["mongo",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'mongo',
+6 verbose parsed url   path: 'mongo',
+6 verbose parsed url   href: 'mongo' }
+7 silly lockFile d8101c97-mongo mongo
+8 verbose lock mongo /Users/Brown/.npm/d8101c97-mongo.lock
+9 silly lockFile d8101c97-mongo mongo
+10 silly lockFile d8101c97-mongo mongo
+11 verbose addNamed [ 'mongo', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1bcfcd42-mongo mongo@
+14 verbose lock mongo@ /Users/Brown/.npm/1bcfcd42-mongo.lock
+15 silly addNameRange { name: 'mongo', range: '*', hasData: false }
+16 verbose request where is /mongo
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 35fc2a96a415dc94
+19 verbose url raw /mongo
+20 verbose url resolving [ 'https://registry.npmjs.org/', './mongo' ]
+21 verbose url resolved https://registry.npmjs.org/mongo
+22 verbose request where is https://registry.npmjs.org/mongo
+23 info trying registry request attempt 1 at 20:44:58
+24 verbose etag "3DEPMYC940XNOFYG0EB3HXECR"
+25 http GET https://registry.npmjs.org/mongo
+26 http 304 https://registry.npmjs.org/mongo
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Fri, 09 Jan 2015 04:44:59 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Fri, 09 Jan 2015 04:44:59 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"3DEPMYC940XNOFYG0EB3HXECR"',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-sjc3123-SJC',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1420778699.804491,VS0,VE31',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/mongo from cache
+29 silly addNameRange number 2 { name: 'mongo', range: '*', hasData: true }
+30 silly addNameRange versions [ 'mongo', [ '0.1.0' ] ]
+31 verbose addNamed [ 'mongo', '0.1.0' ]
+32 verbose addNamed [ '0.1.0', '0.1.0' ]
+33 silly lockFile 118a518b-mongo-0-1-0 mongo@0.1.0
+34 verbose lock mongo@0.1.0 /Users/Brown/.npm/118a518b-mongo-0-1-0.lock
+35 silly lockFile 118a518b-mongo-0-1-0 mongo@0.1.0
+36 silly lockFile 118a518b-mongo-0-1-0 mongo@0.1.0
+37 silly lockFile 1bcfcd42-mongo mongo@
+38 silly lockFile 1bcfcd42-mongo mongo@
+39 silly resolved [ { name: 'mongo',
+39 silly resolved     description: 'A thin wrapper for the mongodb library',
+39 silly resolved     version: '0.1.0',
+39 silly resolved     author: { name: 'Chris O\'Hara', email: 'cohara87@gmail.com' },
+39 silly resolved     main: 'index',
+39 silly resolved     dependencies: { mongodb: '*' },
+39 silly resolved     engines: { node: '>= 0.4.0' },
+39 silly resolved     licenses: [ [Object] ],
+39 silly resolved     _npmUser: { name: 'cohara87', email: 'cohara87@gmail.com' },
+39 silly resolved     _id: 'mongo@0.1.0',
+39 silly resolved     devDependencies: {},
+39 silly resolved     _engineSupported: true,
+39 silly resolved     _npmVersion: '1.0.106',
+39 silly resolved     _nodeVersion: 'v0.6.6',
+39 silly resolved     _defaultsLoaded: true,
+39 silly resolved     dist:
+39 silly resolved      { shasum: 'c8af0f8df98d4894b772b37342987c3becf3718c',
+39 silly resolved        tarball: 'http://registry.npmjs.org/mongo/-/mongo-0.1.0.tgz' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     directories: {},
+39 silly resolved     _shasum: 'c8af0f8df98d4894b772b37342987c3becf3718c',
+39 silly resolved     _from: 'mongo@',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/mongo/-/mongo-0.1.0.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install mongo@0.1.0 into /usr/local/lib
+41 info installOne mongo@0.1.0
+42 verbose lib/node_modules/mongo unbuild
+43 verbose tar unpack /Users/Brown/.npm/mongo/0.1.0/package.tgz
+44 silly lockFile 5dcac05b-usr-local-lib-node-modules-mongo tar:///usr/local/lib/node_modules/mongo
+45 verbose lock tar:///usr/local/lib/node_modules/mongo /Users/Brown/.npm/5dcac05b-usr-local-lib-node-modules-mongo.lock
+46 silly lockFile b1b5479a-rown-npm-mongo-0-1-0-package-tgz tar:///Users/Brown/.npm/mongo/0.1.0/package.tgz
+47 verbose lock tar:///Users/Brown/.npm/mongo/0.1.0/package.tgz /Users/Brown/.npm/b1b5479a-rown-npm-mongo-0-1-0-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/mongo'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/mongo']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/mongo',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/mongo',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 13.3.0
+52 error command "node" "/usr/local/bin/npm" "install" "mongo" "-g"
+53 error cwd /Users/Brown/Desktop/projects/node-passport-local
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/mongo
+57 error fstream_path /usr/local/lib/node_modules/mongo
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/mongo'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]
